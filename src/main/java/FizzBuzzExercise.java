@@ -1,7 +1,7 @@
 class FizzBuzzExercise {
-    static String[] getFizzBuzz(int lenght) {
-        String[] fizzBuzz = new String[lenght];
-        for (int i = 0; i < lenght; i++) {
+    static String[] getFizzBuzz(int length) {
+        String[] fizzBuzz = new String[length];
+        for (int i = 0; i < length; i++) {
             fizzBuzz[i] = sayNumber(i + 1);
         }
         return fizzBuzz;
